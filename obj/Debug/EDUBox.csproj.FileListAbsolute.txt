@@ -1,0 +1,13 @@
+D:\EDUBox\EDUBox\EDUBox\bin\EDUBox.dll.config
+D:\EDUBox\EDUBox\EDUBox\bin\EDUBox.dll
+D:\EDUBox\EDUBox\EDUBox\bin\EDUBox.pdb
+D:\EDUBox\EDUBox\EDUBox\bin\ClosedXML.dll
+D:\EDUBox\EDUBox\EDUBox\bin\DocumentFormat.OpenXml.dll
+D:\EDUBox\EDUBox\EDUBox\bin\ExcelNumberFormat.dll
+D:\EDUBox\EDUBox\EDUBox\bin\ClosedXML.pdb
+D:\EDUBox\EDUBox\EDUBox\bin\ClosedXML.xml
+D:\EDUBox\EDUBox\EDUBox\bin\DocumentFormat.OpenXml.xml
+D:\EDUBox\EDUBox\EDUBox\bin\ExcelNumberFormat.xml
+D:\EDUBox\EDUBox\EDUBox\obj\Debug\EDUBox.dll
+D:\EDUBox\EDUBox\EDUBox\obj\Debug\EDUBox.pdb
+D:\EDUBox\EDUBox\EDUBox\obj\Debug\EDUBox.csprojResolveAssemblyReference.cache

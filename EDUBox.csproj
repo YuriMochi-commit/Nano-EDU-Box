@@ -1,0 +1,286 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9CBD91FC-0768-4709-A35C-27F12C8B4B8F}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EDUBox</RootNamespace>
+    <AssemblyName>EDUBox</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ClosedXML">
+      <HintPath>..\packages\ClosedXML.0.95.4\lib\net40\ClosedXML.dll</HintPath>
+    </Reference>
+    <Reference Include="DocumentFormat.OpenXml, Version=2.7.2.0, Culture=neutral, PublicKeyToken=8fb06cb64d019a17, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\DocumentFormat.OpenXml.2.7.2\lib\net40\DocumentFormat.OpenXml.dll</HintPath>
+    </Reference>
+    <Reference Include="ExcelNumberFormat">
+      <HintPath>..\packages\ExcelNumberFormat.1.0.10\lib\net20\ExcelNumberFormat.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="IMG\g10bio.png" />
+    <Content Include="IMG\g10chem.png" />
+    <Content Include="IMG\g10physics.png" />
+    <Content Include="IMG\g11bio.png" />
+    <Content Include="IMG\g11chem.png" />
+    <Content Include="IMG\g11physics.png" />
+    <Content Include="IMG\g12bio.png" />
+    <Content Include="IMG\g12chem.png" />
+    <Content Include="IMG\g12physics.png" />
+    <Content Include="IMG\g1eng.png" />
+    <Content Include="IMG\g1science.png" />
+    <Content Include="IMG\g2manner.png" />
+    <Content Include="IMG\g2lumuyae.png" />
+    <Content Include="IMG\g2science.png" />
+    <Content Include="IMG\g3manner.png" />
+    <Content Include="IMG\g3lumuyae.png" />
+    <Content Include="IMG\g3science.png" />
+    <Content Include="IMG\g5math.png" />
+    <Content Include="IMG\g5lumuyae.png" />
+    <Content Include="IMG\g9geo.png" />
+    <Content Include="IMG\g9history.png" />
+    <Content Include="IMG\g9science.png" />
+    <Content Include="packages.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AdminDashBoard.aspx" />
+    <Content Include="App_Data\Quiz.mdf" />
+    <Content Include="App_Data\Quiz_log.ldf">
+      <DependentUpon>Quiz.mdf</DependentUpon>
+    </Content>
+    <Content Include="CharTyping.aspx" />
+    <Content Include="EachOfMyanmarChar.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="IMG\balloon.png" />
+    <Content Include="IMG\bg1.png" />
+    <Content Include="IMG\Bg2.png" />
+    <Content Include="IMG\bg3.jpg" />
+    <Content Include="IMG\char.png" />
+    <Content Include="IMG\g1.png" />
+    <Content Include="IMG\g10.png" />
+    <Content Include="IMG\g11.png" />
+    <Content Include="IMG\g12.png" />
+    <Content Include="IMG\g1math.png" />
+    <Content Include="IMG\g2.png" />
+    <Content Include="IMG\g3.png" />
+    <Content Include="IMG\g4.png" />
+    <Content Include="IMG\g4lumuyae.png" />
+    <Content Include="IMG\g4science.png" />
+    <Content Include="IMG\g5.png" />
+    <Content Include="IMG\g5science.png" />
+    <Content Include="IMG\g6.png" />
+    <Content Include="IMG\g6geo.png" />
+    <Content Include="IMG\g6history.png" />
+    <Content Include="IMG\g6science.png" />
+    <Content Include="IMG\g7.png" />
+    <Content Include="IMG\g7geo.png" />
+    <Content Include="IMG\g7history.png" />
+    <Content Include="IMG\g7science.png" />
+    <Content Include="IMG\g8.png" />
+    <Content Include="IMG\g8geo.png" />
+    <Content Include="IMG\g8history.png" />
+    <Content Include="IMG\g8science.png" />
+    <Content Include="IMG\g9.png" />
+    <Content Include="IMG\inter.png" />
+    <Content Include="IMG\Ka.png" />
+    <Content Include="IMG\kg.png" />
+    <Content Include="IMG\map1.png" />
+    <Content Include="IMG\Myanmar.png" />
+    <Content Include="IMG\pp.png" />
+    <Content Include="index.aspx" />
+    <Content Include="LoginForm.aspx" />
+    <Content Include="mapScript.js" />
+    <Content Include="MyanCharTypo.aspx" />
+    <Content Include="Quiz.aspx" />
+    <Content Include="SentenceType.aspx" />
+    <Content Include="StateClick.aspx" />
+    <Content Include="StateClickIntro.aspx" />
+    <Content Include="Subject.aspx" />
+    <Content Include="Typing.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdminDashBoard.aspx.cs">
+      <DependentUpon>AdminDashBoard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminDashBoard.aspx.designer.cs">
+      <DependentUpon>AdminDashBoard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CharTyping.aspx.cs">
+      <DependentUpon>CharTyping.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CharTyping.aspx.designer.cs">
+      <DependentUpon>CharTyping.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EachOfMyanmarChar.aspx.cs">
+      <DependentUpon>EachOfMyanmarChar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EachOfMyanmarChar.aspx.designer.cs">
+      <DependentUpon>EachOfMyanmarChar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForm.aspx.cs">
+      <DependentUpon>LoginForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LoginForm.aspx.designer.cs">
+      <DependentUpon>LoginForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MyanCharTypo.aspx.cs">
+      <DependentUpon>MyanCharTypo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyanCharTypo.aspx.designer.cs">
+      <DependentUpon>MyanCharTypo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Quiz.aspx.cs">
+      <DependentUpon>Quiz.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Quiz.aspx.designer.cs">
+      <DependentUpon>Quiz.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SentenceType.aspx.cs">
+      <DependentUpon>SentenceType.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SentenceType.aspx.designer.cs">
+      <DependentUpon>SentenceType.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StateClick.aspx.cs">
+      <DependentUpon>StateClick.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StateClick.aspx.designer.cs">
+      <DependentUpon>StateClick.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StateClickIntro.aspx.cs">
+      <DependentUpon>StateClickIntro.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StateClickIntro.aspx.designer.cs">
+      <DependentUpon>StateClickIntro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Subject.aspx.cs">
+      <DependentUpon>Subject.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Subject.aspx.designer.cs">
+      <DependentUpon>Subject.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Typing.aspx.cs">
+      <DependentUpon>Typing.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Typing.aspx.designer.cs">
+      <DependentUpon>Typing.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ExcelUploads\" />
+    <Folder Include="Models\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>53081</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:53081/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
